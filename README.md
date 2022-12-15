@@ -40,4 +40,4 @@ The New Ice Station Z Save Editor (NISZSE).
 
 ***When I Try To Edit Anything The Program Crashes. Why?***
 
-- *Very commom problem with any Python-Base Save-Editor. But the most common solution is to get "permissions to write to the file.*
+- *Very commom problem with any Python-Base Save-Editor. But the most common solution is to get "permissions" to write to the file.*
