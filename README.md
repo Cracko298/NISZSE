@@ -20,11 +20,11 @@ The New Ice Station Z Save Editor (NISZSE).
 - Slot Editing Isn't Supported Yet.
 
 # Upcoming Updates:
-- Clothing Update - Expect By: ***01/10/2023***.
-- Fitness Update - Expect By: ***01/20/2023***.
-- Modify Update - Expect By: ***01/10/2023***.
-- Day's Update - Expect By: ***02/01/2023***.
-- Slots Update - Expect By: ***03/20/2023***.
+- Clothing Update - Expect By: **01/10/2023**.
+- Fitness Update - Expect By: **01/20/2023**.
+- Modify Update - Expect By: **01/10/2023**.
+- Day's Update - Expect By: **02/01/2023**.
+- Slots Update - Expect By: **03/20/2023**.
 
 # FaQ:
 ***Why Isn't The Save-Editor Complete?***
