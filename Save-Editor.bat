@@ -1,10 +1,5 @@
 @echo off
 
-title ISZ Save-Editor (Cracko298)
-
-echo Created By: Cracko298
-echo.
-echo Starting Application...
-
+title NISZSE (New ISZ Save-Editor)
 
 python.exe ".\_meta\sav.py"
