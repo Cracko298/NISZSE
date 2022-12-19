@@ -12,8 +12,6 @@ The New Ice Station Z Save Editor (NISZSE).
 - [MacOS Build](https://github.com/Cracko298/NISZSE/blob/main/NISZSE%20(MacOS,%20Linux).zip?raw=true)
 - [Linux Build](https://github.com/Cracko298/NISZSE/blob/main/NISZSE%20(MacOS,%20Linux).zip?raw=true)
 
-
-
 # Notes:
 - Not an Advanced GUI. Uses ***Numpad Keys 0-8*** To Navigate Menu.
 - Edits ***ALL*** Save-Data Within The Current Directory.
