@@ -5,6 +5,7 @@ The New Ice Station Z Save Editor (NISZSE).
 - Edit Health, Thirst, Hunger, and Battery Status's.
 - Edit The Coordinates of Your Player.
 - Attempt To Fix Save-Data.
+- Edit Current Clothes.
 
 # Download:
 - [Windows x64 Build](https://github.com/Cracko298/NISZSE/blob/main/Save-Editor%20(Windows).zip?raw=true)
@@ -14,16 +15,16 @@ The New Ice Station Z Save Editor (NISZSE).
 
 
 # Notes:
-- Not an Advanced GUI. Uses ***Numpad Keys 1-6*** To Navigate Menu.
+- Not an Advanced GUI. Uses ***Numpad Keys 0-8*** To Navigate Menu.
 - Edits ***ALL*** Save-Data Within The Current Directory.
-- Clothing Options Isn't Supported Yet.
+- Clothe Editing is Partially Supported Now.
 - Fitness Menu Isn't Supported Yet.
 - Modified Date Isn't Supported Yet.
 - Day Count Isn't Supported Yet.
 - Slot Editing Isn't Supported Yet.
 
 # Upcoming Updates:
-- Clothing Update - Expect By: **01/10/2023**.
+- Clothing Update - Expect By: **01/05/2023**.
 - Fitness Update - Expect By: **01/20/2023**.
 - Modify Update - Expect By: **01/10/2023**.
 - Day's Update - Expect By: **02/01/2023**.
