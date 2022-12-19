@@ -8,7 +8,7 @@ The New Ice Station Z Save Editor (NISZSE).
 - Edit Current Clothes.
 
 # Download:
-- [Windows x64 Build](https://github.com/Cracko298/NISZSE/blob/main/Save-Editor%20(Windows).zip?raw=true)
+- [Windows x64 Build](https://github.com/Cracko298/NISZSE/blob/main/NISZSE%20(Windows).zip?raw=true)
 - [MacOS Build](https://github.com/Cracko298/NISZSE/blob/main/NISZSE%20(MacOS,%20Linux).zip?raw=true)
 - [Linux Build](https://github.com/Cracko298/NISZSE/blob/main/NISZSE%20(MacOS,%20Linux).zip?raw=true)
 
@@ -17,7 +17,7 @@ The New Ice Station Z Save Editor (NISZSE).
 # Notes:
 - Not an Advanced GUI. Uses ***Numpad Keys 0-8*** To Navigate Menu.
 - Edits ***ALL*** Save-Data Within The Current Directory.
-- Clothe Editing is Partially Supported Now.
+- Clothes Editing is ***Partially Supported Now***.
 - Fitness Menu Isn't Supported Yet.
 - Modified Date Isn't Supported Yet.
 - Day Count Isn't Supported Yet.
