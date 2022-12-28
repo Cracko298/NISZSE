@@ -1,7 +1,7 @@
 # NISZSE
 
 <p align="center">
-    <img width="96" height="54" "src="https://user-images.githubusercontent.com/78656905/209751023-78384e2a-7640-47e1-861c-2e9bd5a318ec.png" alt="Material Bread logo">
+    <img width="96" height="54" "src="https://github.com/Cracko298/NISZSE/blob/main/imagerrrr_output.png" alt="NISZSE (New ISZ Save-Editor).">
 </p>
 
 - The New Ice Station Z Save Editor (NISZSE).
