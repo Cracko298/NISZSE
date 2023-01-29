@@ -1,6 +1,9 @@
 from time import sleep
 from os import system
 from os import path
+from slots import slotsFind
+from slots import slotsID
+from slots import slotsEdit
 
 check0 = path.exists("Data0")
 check1 = path.exists("Data1")
@@ -23,6 +26,10 @@ if check0 == False:
       sleep(2)
       exit()
 
+slotsFind()
+slotsID()
+slotsEdit()
+system(clear)
 
 def Health():
   global check0
@@ -36,7 +43,7 @@ def Health():
   )
   input("Press 'Enter' To Continue. ")
   system(clear)
-  print("This Program Only Accepts 4-Byte Answers (Or less).")
+  print("This Program Only Accepts 4-Byte Integers (Or less).")
   print(" ")
   number = int(input("Enter An Integer for Health: "))
   byte_array = bytearray(number.to_bytes(4, byteorder='big'))
@@ -73,7 +80,7 @@ def Water():
   )
   input("Press 'Enter' To Continue. ")
   system(clear)
-  print("This Program Only Accepts 4-Byte Answers (Or less).")
+  print("This Program Only Accepts 4-Byte Integers (Or less).")
   print(" ")
   number = int(input("Enter An Integer for Thirst: "))
   byte_array = bytearray(number.to_bytes(4, byteorder='big'))
@@ -110,7 +117,7 @@ def Food():
   )
   input("Press 'Enter' To Continue. ")
   system(clear)
-  print("This Program Only Accepts 4-Byte Answers (Or less).")
+  print("This Program Only Accepts 4-Byte Integers (Or less).")
   print(" ")
   number = int(input("Enter An Integer for Hunger: "))
   byte_array = bytearray(number.to_bytes(4, byteorder='big'))
@@ -147,7 +154,7 @@ def Battery():
   )
   input("Press 'Enter' To Continue. ")
   system(clear)
-  print("This Program Only Accepts 4-Byte Answers (Or less).")
+  print("This Program Only Accepts 4-Byte Integers (Or less).")
   print(" ")
   number = int(input("Enter An Integer for Battery: "))
   byte_array = bytearray(number.to_bytes(4, byteorder='big'))
@@ -248,6 +255,10 @@ def Submarine():
   print("Wrote Coordinates To File(s).")
   input("Press 'Enter' To Continue. ")
   LocationMenu()
+
+
+
+
 
 
 def FixOpen():
@@ -682,81 +693,6 @@ def Backpack6():
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-def Hack0():
-  global clear
-  system(clear)
-  global check0
-  global check1
-  global check2
-
-
-def Hack1():
-  global clear
-  system(clear)
-  global check0
-  global check1
-  global check2
-
-
-def Hack2():
-  global clear
-  system(clear)
-  global check0
-  global check1
-  global check2
-
-
-def Hack3():
-  global clear
-  system(clear)
-  global check0
-  global check1
-  global check2
-
-
-def Hack4():
-  global clear
-  system(clear)
-  global check0
-  global check1
-  global check2
 
 
 
@@ -1258,6 +1194,347 @@ def notava():
 
 
 
+def plyrKill():
+  global check0
+  global check1
+  global check2
+  global clear
+  system(clear)
+  print("WARNING: You Selected A Save-Data Editing Option!")
+  print("This Function Will Edit All Save-Data Files Found In The Currect Directory.")
+  input("Press 'Enter' To Continue. ")
+  system(clear)
+  print("This Program Only Accepts 4-Byte Integers (Max Player Kills is 99).")
+  print(" ")
+  number = int(input("Enter An Integer for Player Kills: "))
+  byte_array = bytearray(number.to_bytes(4, byteorder='big'))
+  reversed_array = byte_array[::-1]
+
+  if check0 == True:
+    with open('Data0', 'rb+') as bin_file:
+      bin_file.seek(80)
+      bin_file.write(reversed_array)
+
+  if check1 == True:
+    with open('Data1', 'rb+') as bin_file:
+      bin_file.seek(80)
+      bin_file.write(reversed_array)
+
+  if check2 == True:
+    with open('Data2', 'rb+') as bin_file:
+      bin_file.seek(80)
+      bin_file.write(reversed_array)
+  print("Wrote Data To File(s).")
+  input("Press 'Enter' To Continue. ")
+  fitnessMenu()
+
+
+def vhclDrv():
+  global check0
+  global check1
+  global check2
+  global clear
+  system(clear)
+  print("WARNING: You Selected A Save-Data Editing Option!")
+  print("This Function Will Edit All Save-Data Files Found In The Currect Directory.")
+  input("Press 'Enter' To Continue. ")
+  system(clear)
+  print("This Program Only Accepts 4-Byte Integers (Max Vehciles Driven is 99).")
+  print(" ")
+  number = int(input("Enter An Integer for Vehciles Driven: "))
+  byte_array = bytearray(number.to_bytes(4, byteorder='big'))
+  reversed_array = byte_array[::-1]
+
+  if check0 == True:
+    with open('Data0', 'rb+') as bin_file:
+      bin_file.seek(84)
+      bin_file.write(reversed_array)
+
+  if check1 == True:
+    with open('Data1', 'rb+') as bin_file:
+      bin_file.seek(84)
+      bin_file.write(reversed_array)
+
+  if check2 == True:
+    with open('Data2', 'rb+') as bin_file:
+      bin_file.seek(84)
+      bin_file.write(reversed_array)
+  print("Wrote Data To File(s).")
+  input("Press 'Enter' To Continue. ")
+  fitnessMenu()
+
+def zmbiKill():
+  global check0
+  global check1
+  global check2
+  global clear
+  system(clear)
+  print("WARNING: You Selected A Save-Data Editing Option!")
+  print("This Function Will Edit All Save-Data Files Found In The Currect Directory.")
+  input("Press 'Enter' To Continue. ")
+  system(clear)
+  print("This Program Only Accepts 4-Byte Integers (Max Zombie Kills is 99).")
+  print(" ")
+  number = int(input("Enter An Integer for Zombie Kills: "))
+  byte_array = bytearray(number.to_bytes(4, byteorder='big'))
+  reversed_array = byte_array[::-1]
+
+  if check0 == True:
+    with open('Data0', 'rb+') as bin_file:
+      bin_file.seek(76)
+      bin_file.write(reversed_array)
+
+  if check1 == True:
+    with open('Data1', 'rb+') as bin_file:
+      bin_file.seek(76)
+      bin_file.write(reversed_array)
+
+  if check2 == True:
+    with open('Data2', 'rb+') as bin_file:
+      bin_file.seek(76)
+      bin_file.write(reversed_array)
+  print("Wrote Data To File(s).")
+  input("Press 'Enter' To Continue. ")
+  fitnessMenu()
+
+def DaysSurv():
+  global check0
+  global check1
+  global check2
+  global clear
+  system(clear)
+  print("WARNING: You Selected A Save-Data Editing Option!")
+  print("This Function Will Edit All Save-Data Files Found In The Currect Directory.")
+  input("Press 'Enter' To Continue. ")
+  system(clear)
+  print("This Program Only Accepts 4-Byte Integers.")
+  print(" ")
+  number = int(input("Enter An Integer for Days Survived: "))
+  byte_array = bytearray(number.to_bytes(4, byteorder='big'))
+  reversed_array = byte_array[::-1]
+
+  if check0 == True:
+    with open('Data0', 'rb+') as bin_file:
+      bin_file.seek(68)
+      bin_file.write(reversed_array)
+
+  if check1 == True:
+    with open('Data1', 'rb+') as bin_file:
+      bin_file.seek(68)
+      bin_file.write(reversed_array)
+
+  if check2 == True:
+    with open('Data2', 'rb+') as bin_file:
+      bin_file.seek(68)
+      bin_file.write(reversed_array)
+  print("Wrote Data To File(s).")
+  input("Press 'Enter' To Continue. ")
+  fitnessMenu()
+
+def DistTrvl():
+  global check0
+  global check1
+  global check2
+  global clear
+  system(clear)
+  print("WARNING: You Selected A Save-Data Editing Option!")
+  print("This Function Will Edit All Save-Data Files Found In The Currect Directory.")
+  input("Press 'Enter' To Continue. ")
+  system(clear)
+  print("This Program Only Accepts 4-Byte Integers.")
+  print(" ")
+  number = int(input("Enter An Integer for Distance Traveled: "))
+  byte_array = bytearray(number.to_bytes(4, byteorder='big'))
+  reversed_array = byte_array[::-1]
+
+  if check0 == True:
+    with open('Data0', 'rb+') as bin_file:
+      bin_file.seek(72)
+      bin_file.write(reversed_array)
+
+  if check1 == True:
+    with open('Data1', 'rb+') as bin_file:
+      bin_file.seek(72)
+      bin_file.write(reversed_array)
+
+  if check2 == True:
+    with open('Data2', 'rb+') as bin_file:
+      bin_file.seek(72)
+      bin_file.write(reversed_array)
+  print("Wrote Data To File(s).")
+  input("Press 'Enter' To Continue. ")
+  fitnessMenu()
+
+def foodWater():
+  global check0
+  global check1
+  global check2
+  global clear
+  system(clear)
+  print("WARNING: You Selected A Save-Data Editing Option!")
+  print("This Function Will Edit All Save-Data Files Found In The Currect Directory.")
+  input("Press 'Enter' To Continue. ")
+  system(clear)
+  print("This Program Only Accepts 4-Byte Integers (Max Food/Water Consumed is 99).")
+  print(" ")
+  number = int(input("Enter An Integer for Food/Water Consumed: "))
+  byte_array = bytearray(number.to_bytes(4, byteorder='big'))
+  reversed_array = byte_array[::-1]
+
+  if check0 == True:
+    with open('Data0', 'rb+') as bin_file:
+      bin_file.seek(88)
+      bin_file.write(reversed_array)
+
+  if check1 == True:
+    with open('Data1', 'rb+') as bin_file:
+      bin_file.seek(88)
+      bin_file.write(reversed_array)
+
+  if check2 == True:
+    with open('Data2', 'rb+') as bin_file:
+      bin_file.seek(88)
+      bin_file.write(reversed_array)
+  print("Wrote Data To File(s).")
+  input("Press 'Enter' To Continue. ")
+  fitnessMenu()
+
+
+def healthItm():
+  global check0
+  global check1
+  global check2
+  global clear
+  system(clear)
+  print("WARNING: You Selected A Save-Data Editing Option!")
+  print("This Function Will Edit All Save-Data Files Found In The Currect Directory.")
+  input("Press 'Enter' To Continue. ")
+  system(clear)
+  print("This Program Only Accepts 4-Byte Integers (Max Health Items Consumed is 99).")
+  print(" ")
+  number = int(input("Enter An Integer for Health Items Consumed: "))
+  byte_array = bytearray(number.to_bytes(4, byteorder='big'))
+  reversed_array = byte_array[::-1]
+
+  if check0 == True:
+    with open('Data0', 'rb+') as bin_file:
+      bin_file.seek(92)
+      bin_file.write(reversed_array)
+
+  if check1 == True:
+    with open('Data1', 'rb+') as bin_file:
+      bin_file.seek(92)
+      bin_file.write(reversed_array)
+
+  if check2 == True:
+    with open('Data2', 'rb+') as bin_file:
+      bin_file.seek(92)
+      bin_file.write(reversed_array)
+  print("Wrote Data To File(s).")
+  input("Press 'Enter' To Continue. ")
+  fitnessMenu()
+
+
+def fishBirdCatch():
+  global check0
+  global check1
+  global check2
+  global clear
+  system(clear)
+  print("WARNING: You Selected A Save-Data Editing Option!")
+  print("This Function Will Edit All Save-Data Files Found In The Currect Directory.")
+  input("Press 'Enter' To Continue. ")
+  system(clear)
+  print("This Program Only Accepts 4-Byte Integers (Max Fish/Birds Caught is 99).")
+  print(" ")
+  number = int(input("Enter An Integer for Fish/Birds Caught: "))
+  byte_array = bytearray(number.to_bytes(4, byteorder='big'))
+  reversed_array = byte_array[::-1]
+
+  if check0 == True:
+    with open('Data0', 'rb+') as bin_file:
+      bin_file.seek(96)
+      bin_file.write(reversed_array)
+
+  if check1 == True:
+    with open('Data1', 'rb+') as bin_file:
+      bin_file.seek(96)
+      bin_file.write(reversed_array)
+
+  if check2 == True:
+    with open('Data2', 'rb+') as bin_file:
+      bin_file.seek(96)
+      bin_file.write(reversed_array)
+  print("Wrote Data To File(s).")
+  input("Press 'Enter' To Continue. ")
+  fitnessMenu()
+
+
+
+
+
+
+
+
+
+
+
+
+
+def fitnessMenu():
+  global clear
+  subsys = [1,2,3,4,5,6,7,8,0]
+
+  system(clear)
+  print("Fitness Menu (v1.1)")
+  print(" ")
+  print("1 = Player Kills") # Seek 80
+  print("2 = Zombie Kills") # Seek 76
+  print("3 = Days Survived") # Seek 68
+  print("4 = Kilometers Traveled") # Seek 72
+  print(" ")
+  print("5 = Vehciles Driven") # Seek 84
+  print("6 = Food/Water Consumed") # Seek 88
+  print("7 = Health Items Consumed") # Seek 92
+  print("8 = Birds/Fish Caught.") # Seek 96
+  print("0 = Return To Menu")
+
+  print(" ")
+  useri = int(input("Select Choice: "))
+
+  if useri not in subsys:
+    fitnessMenu()
+
+  if useri == 1: # 1st Half
+    plyrKill()
+  
+  if useri == 2:
+    zmbiKill()
+
+  if useri == 3:
+    DaysSurv()
+  
+  if useri == 4: 
+    DistTrvl()
+
+  if useri == 5: # 2nd Half
+    vhclDrv()
+
+  if useri == 6:
+    foodWater()
+
+  if useri == 7:
+    healthItm()
+
+  if useri == 8:
+    fishBirdCatch()
+
+  if useri == 0:
+    Menu2()
+
+
+
+
 
 
 
@@ -1534,20 +1811,18 @@ def notice():
 
 
 def Menu2():
-  spectrum0 = [1, 2, 3, 4, 5, 6, 7, 8, 0]
+  spectrum0 = [1, 2, 3, 4, 5, 6, 0]
   system(clear)
   print("Ice Station Z Save Editor + Fixer (Console Window)")
-  print("Press 1-6 To Select Your Options. (And Then Hit 'Enter')")
+  print("Press '1-6' (or) '0' To Select Your Options. (And Then Hit 'Enter')")
   print(" ")
   print("1 = Edit Health")
   print("2 = Edit Thirst")
   print("3 = Edit Hunger")
   print("4 = Edit Battery")
-  print("5 = Edit Days Survived")
-  print("6 = Edit Modified Date")
   print(" ")
-  print("7 = Fitness Menu (v1.0)")
-  print("8 = Active Slots Menu (v1.4)")
+  print("5 = Fitness Menu (v1.1)")
+  print("6 = Active Slots Menu (v1.4)")
   print("0 = Previous Page (Current Page '2/2')")
   print(" ")
   user_u = int(input("Selected Choice: "))
@@ -1569,6 +1844,16 @@ def Menu2():
 
   if user_u == 4:
     Battery()
+
+  if user_u == 5:
+    fitnessMenu()
+
+  if user_u == 6:
+    system(clear)
+    print("This Feature is Still in Development.")
+    print("This Will Release Around 03/01/2023.")
+    sleep(5)
+    Menu2()
 
 
 
@@ -1614,11 +1899,11 @@ def Menu2Warn():
 def Menu():
   spectrum0 = [1, 2, 3, 4, 5, 6, 7, 0]
   system(clear)
-  print('Version 1.4')
+  print('Version 1.6')
   sleep(0.5)
   system(clear)
   print("Ice Station Z Save Editor + Fixer (Console Window)")
-  print("Press 1-6 To Select Your Options. (And Then Hit 'Enter')")
+  print("Press '1-7' (or) '0' To Select Your Options. (And Then Hit 'Enter')")
   print(" ")
   print("1 = Edit Health")
   print("2 = Edit Thirst")
@@ -1657,7 +1942,7 @@ def Menu():
     notDeveloped()
 
   if user_i == 0:
-    Menu2Warn()
+    Menu2()
 
 
 def Load():
