@@ -22,18 +22,17 @@
 - Not an Advanced GUI. Uses ***Numpad Keys 0-8*** To Navigate Menu's.
 - Edits ***ALL*** Save-Data Within The Current Directory.
 - Clothes Editing is ***Fully Supported Now***.
-- Fitness Menu Isn't Supported Yet.
-- Modified Date Isn't Supported Yet.
-- Day Count Isn't Supported Yet.
+- Fitness Menu + Day Editing is ***Fully Supported Now***.
 - Slot Editing Isn't Supported Yet.
 
 # Upcoming Updates:
 - Slot Editor Update - Expect By: **03/01/2023**.
+- Settings Editor Update - Expect By: **03/20/2023**.
 
 # FaQ:
 ***Why Isn't The Save-Editor Complete?***
 
-- *In It's Current State, It is "finished". But will have more updates, and Save-Editng Options as time goes on.*
+- *In It's Current State, It is "finished". But it will have more updates, and Save-Editng Options as time goes on.*
 
 ***Why Are The Feature Updates Going To Take So Long?***
 
