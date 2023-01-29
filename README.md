@@ -33,7 +33,7 @@
 # FaQ:
 ***Why Isn't The Save-Editor Complete?***
 
-- *In It's Current State, It is "finished" basic editing is supported. Not much advanced editing at the moment.*
+- *In It's Current State, It is "finished". But will have more updates, and Save-Editng Options as time goes on.*
 
 ***Why Are The Feature Updates Going To Take So Long?***
 
@@ -41,7 +41,7 @@
 
 ***When I Try To Edit Anything The Program Crashes. Why?***
 
-- *Very commom problem with any Python-Base Save-Editor. But the most common solution is to get "permissions" to write to the file.*
+- *Very commom problem with any Python-Based Save-Editor. But the most common solution is to get "permissions" to write to the file.*
 
 ***Any System Requirements?***
 
