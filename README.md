@@ -45,4 +45,8 @@
 
 ***Any System Requirements?***
 
-- *Python 3.5+* for ***Windows Computers*** *Windows XP (or) Newer on a Standard x86 Intel or AMD Platform.*
+- *"Python 3.7+" is Required Along With a Standard x86 Intel or x86 AMD Processor.*
+
+***Any ARM-Processor Support?***
+
+- *No Testing was done on Any ARM-Based Processors. So there is no guarantee that it will work.*
