@@ -21,9 +21,9 @@
 - Get Hacked Clothes [Download](https://github.com/Cracko298/ISplg-Compiler/releases/download/v1.1/clothes.ISplg).
 
 # Download:
-- [NISZSE Windows x64 Build](https://github.com/Cracko298/NISZSE/blob/main/NISZSE%20(Windows).zip?raw=true)
-- [NISZSE MacOS Build](https://github.com/Cracko298/NISZSE/blob/main/NISZSE%20(MacOS,%20Linux).zip?raw=true)
-- [NISZSE Linux Build](https://github.com/Cracko298/NISZSE/blob/main/NISZSE%20(MacOS,%20Linux).zip?raw=true)
+- [NISZSE Windows x64 Build](https://github.com/Cracko298/NISZSE/blob/main/NISZSE%20(Windows).zip?raw=true).
+- [NISZSE MacOS Build](https://github.com/Cracko298/NISZSE/blob/main/NISZSE%20(MacOS,%20Linux).zip?raw=true).
+- [NISZSE Linux Build](https://github.com/Cracko298/NISZSE/blob/main/NISZSE%20(MacOS,%20Linux).zip?raw=true).
 
 # Notes:
 - Not an Advanced GUI. Uses ***Numpad Keys 0-8*** To Navigate Menu's.
