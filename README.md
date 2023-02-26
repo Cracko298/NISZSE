@@ -12,7 +12,7 @@
 - Attempt To Fix Save-Data.
 - Edit Fitness Menu.
 - Edit Current Clothes. (Normal + Hacked Clothes).
-- ***NOW SUPPORTS .ISplg Loading!!!***
+- ***NOW SUPPORTS .ISplg LOADING!!!***
 
 # Download:
 - [Windows x64 Build](https://github.com/Cracko298/NISZSE/blob/main/NISZSE%20(Windows).zip?raw=true)
