@@ -14,6 +14,12 @@
 - Edit Current Clothes. (Normal + Hacked Clothes).
 - ***NOW SUPPORTS .ISplg LOADING!!!***
 
+# *.ISplg Examples:
+- Edit Health [Download](https://github.com/Cracko298/ISplg-Compiler/releases/download/v1.1/health.ISplg).
+- Get Flamethrower [Download](https://github.com/Cracko298/ISplg-Compiler/releases/download/v1.1/flame.ISplg).
+- Fix OpenByte Error [Download](https://github.com/Cracko298/ISplg-Compiler/releases/download/v1.1/error.ISplg).
+- Get Hacked Clothes [Download](https://github.com/Cracko298/ISplg-Compiler/releases/download/v1.1/clothes.ISplg).
+
 # Download:
 - [Windows x64 Build](https://github.com/Cracko298/NISZSE/blob/main/NISZSE%20(Windows).zip?raw=true)
 - [MacOS Build](https://github.com/Cracko298/NISZSE/blob/main/NISZSE%20(MacOS,%20Linux).zip?raw=true)
