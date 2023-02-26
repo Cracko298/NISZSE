@@ -49,3 +49,7 @@
 ***Any ARM-Processor Support?***
 
 - *No Testing was done on Any ARM-Based Processors. So there is no guarantee that it will work.*
+
+***How Do I Load .ISplg Plugins?***
+
+- *Simply drag them into the same Directory as the "NISZSE (Save-Editor).bat" to use them in the NISZSE.*
