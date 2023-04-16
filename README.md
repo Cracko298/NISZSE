@@ -4,6 +4,9 @@
     <img width="384" height="216" src="https://github.com/Cracko298/NISZSE/blob/main/saved_output.png" alt="NISZSE (New ISZ Save-Editor).">
 </p>
 
+- The NISZSE gives people near complete control over their ISZ-3DS (ISZ-2016) Save-Data.
+
+
 - The New Ice Station Z Save Editor (NISZSE).
 
 # Features:
