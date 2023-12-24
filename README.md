@@ -17,28 +17,22 @@
 - Edit Current Clothes. (Normal + Hacked Clothes).
 - ***NOW SUPPORTS .ISplg LOADING!!!***
 
-# *.ISplg Examples:
-- Edit Health [Download](https://github.com/Cracko298/ISplg-Compiler/releases/download/v1.1/health.ISplg).
-- Get Flamethrower [Download](https://github.com/Cracko298/ISplg-Compiler/releases/download/v1.1/flame.ISplg).
-- Fix OpenByte Error [Download](https://github.com/Cracko298/ISplg-Compiler/releases/download/v1.1/error.ISplg).
-- Get Hacked Clothes [Download](https://github.com/Cracko298/ISplg-Compiler/releases/download/v1.1/clothes.ISplg).
-
-# Download:
+## Download:
 - [NISZSE Windows x64 Build](https://github.com/Cracko298/NISZSE/blob/main/NISZSE%20(Windows).zip?raw=true).
 - [NISZSE MacOS Build](https://github.com/Cracko298/NISZSE/blob/main/NISZSE%20(MacOS,%20Linux).zip?raw=true).
 - [NISZSE Linux Build](https://github.com/Cracko298/NISZSE/blob/main/NISZSE%20(MacOS,%20Linux).zip?raw=true).
 
-# Notes:
+### Notes:
 - Not an Advanced GUI. Uses ***Numpad Keys 0-8*** To Navigate Menu's.
 - Edits ***ALL*** Save-Data Within The Current Directory.
 - Clothes Editing is ***Fully Supported Now***.
 - Fitness Menu + Day Editing is ***Fully Supported Now***.
 - Slot Editing Isn't Supported Yet.
 
-# Upcoming Updates:
+### Upcoming Updates:
 - Slot Editor Update - Expected By: **N/A**.
 
-# FaQ:
+## FaQ:
 ***Why Isn't The Save-Editor Complete?***
 
 - *In It's Current State, It is "finished". But it will have more updates, and Save-Editng Options as time goes on.*
@@ -62,3 +56,9 @@
 ***How Do I Load .ISplg Plugins?***
 
 - *Simply drag them into the same Directory as the "NISZSE (Save-Editor).bat" to use them in the NISZSE.*
+
+### *.ISplg Examples:
+- Edit Health [Download](https://github.com/Cracko298/ISplg-Compiler/releases/download/v1.1/health.ISplg).
+- Get Flamethrower [Download](https://github.com/Cracko298/ISplg-Compiler/releases/download/v1.1/flame.ISplg).
+- Fix OpenByte Error [Download](https://github.com/Cracko298/ISplg-Compiler/releases/download/v1.1/error.ISplg).
+- Get Hacked Clothes [Download](https://github.com/Cracko298/ISplg-Compiler/releases/download/v1.1/clothes.ISplg).
