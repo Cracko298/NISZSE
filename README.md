@@ -36,7 +36,7 @@
 - Slot Editing Isn't Supported Yet.
 
 # Upcoming Updates:
-- Slot Editor Update - Expect By: **03/20/2023**.
+- Slot Editor Update - Expected By: **N/A**.
 
 # FaQ:
 ***Why Isn't The Save-Editor Complete?***
