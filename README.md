@@ -32,6 +32,11 @@
 ### Upcoming Updates:
 - Slot Editor Update - Expected By: **N/A**.
 
+### ISZ-Parser:
+- **Parse your ISZ-SaveGames into a Human Readable Format (JavaScript Notation Format (JSON)).**
+- **Visit the GitHub Page [Here](https://github.com/Cracko298/ISZ-Parser).**
+
+
 ## FaQ:
 ***Why Isn't The Save-Editor Complete?***
 
@@ -47,7 +52,7 @@
 
 ***Any System Requirements?***
 
-- *"Python 3.7+" is Required Along With a Standard x86 Intel or x86 AMD Processor.*
+- *"Python 3.7+" is Required Along With a Standard x86 Intel or AMD Processor.*
 
 ***Any ARM-Processor Support?***
 
