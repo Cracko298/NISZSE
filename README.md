@@ -32,7 +32,7 @@
 ### Upcoming Updates:
 - Slot Editor Update - Expected By: **N/A**.
 
-### ISZ-Parser:
+## ISZ-Parser:
 - **Parse your ISZ-SaveGames into a Human Readable Format (JavaScript Notation Format (JSON)).**
 - **Visit the GitHub Page [Here](https://github.com/Cracko298/ISZ-Parser).**
 
